@@ -8,6 +8,12 @@
     <WasmMainJSPath>main.js</WasmMainJSPath>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+
+    <!-- start of optoinal size optimization -->
+    <InvariantGlobalization>true</InvariantGlobalization>
+    <WasmEmitSymbolMap>false</WasmEmitSymbolMap>
+    <!-- end of size optimization -->
+
   </PropertyGroup>
 
 </Project>
